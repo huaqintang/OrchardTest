@@ -26,6 +26,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -114,10 +115,6 @@
     <Content Include="TheAdmin\Styles\images\menuOpenHover.gif" />
     <Content Include="TheAdmin\Styles\images\vinesBackgroundBottom.gif" />
     <Content Include="TheAdmin\Styles\images\menu-filter.png" />
-    <Content Include="TheThemeMachine\Styles\default-grid.css" />
-    <Content Include="TheThemeMachine\Styles\Site.css" />
-    <Content Include="TheThemeMachine\Theme.png" />
-    <Content Include="TheThemeMachine\Theme.txt" />
     <Content Include="SafeMode\Content\Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -126,13 +123,15 @@
     </Content>
     <Content Include="TheAdmin\Views\Pager.cshtml" />
     <Content Include="TheAdmin\Views\OrchardVersion.cshtml" />
+    <Content Include="TheThemeMachine\Styles\default-grid.css" />
+    <Content Include="TheThemeMachine\Styles\Site.css" />
+    <Content Include="TheThemeMachine\Theme.png" />
+    <Content Include="TheThemeMachine\Theme.txt" />
     <Content Include="TheThemeMachine\ThemeZonePreview.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="TheAdmin\Views\Menu.cshtml" />
-    <Content Include="TheThemeMachine\Views\Branding.cshtml" />
-    <Content Include="TheThemeMachine\Views\BadgeOfHonor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TheAdmin\Styles\images\icons.png" />
@@ -158,12 +157,6 @@
     <Content Include="TheAdmin\Theme.png" />
     <Content Include="TheAdmin\Views\User.cshtml" />
     <Content Include="TheAdmin\Views\Header.cshtml" />
-    <Content Include="TheThemeMachine\Views\Layout.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TheThemeMachine\Styles\Web.config">
-      <SubType>Designer</SubType>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="TheAdmin\Scripts\Web.config">
@@ -174,9 +167,6 @@
     <Content Include="TheAdmin\Styles\Web.config">
       <SubType>Designer</SubType>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TheThemeMachine\Placement.info" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TheAdmin\Views\LocalMenu.cshtml" />
@@ -196,11 +186,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TheThemeMachine\Views\Pager.cshtml" />
-    <Content Include="TheThemeMachine\Views\Pager.First.cshtml" />
-    <Content Include="TheThemeMachine\Views\Pager.Last.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="TheAdmin\Views\ErrorPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -208,6 +193,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TheThemeMachine\Placement.info" />
+    <Content Include="TheThemeMachine\Styles\Web.config" />
+    <Content Include="TheThemeMachine\Views\BadgeOfHonor.cshtml" />
+    <Content Include="TheThemeMachine\Views\Branding.cshtml" />
+    <Content Include="TheThemeMachine\Views\Layout.cshtml" />
+    <Content Include="TheThemeMachine\Views\Pager.cshtml" />
+    <Content Include="TheThemeMachine\Views\Pager.First.cshtml" />
+    <Content Include="TheThemeMachine\Views\Pager.Last.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

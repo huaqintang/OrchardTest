@@ -1,0 +1,36 @@
+﻿
+@{
+    var cdnVersion = "1";
+    Script.Include("jquery-1.10.2.min.js").AtFoot();
+    Script.Include("bootstrap.min.js").AtFoot();
+    Script.Include("login.js?v="+ cdnVersion);
+}
+<link href="@Href("~/Modules/LocalTest.UserInfo/Styles/bootstrap-3.1.1.min.css")" rel="stylesheet" type="text/css" />
+<link href="@Href("~/Modules/LocalTest.UserInfo/Styles/login.css?v="+cdnVersion)" rel="stylesheet" type="text/css" />
+
+<div class="account">
+    @using (Html.BeginFormAntiForgeryPost()) { }
+    <div class="container">
+        <h2>Account</h2>
+        <div class="account_grid">
+            <div class="col-md-6 login-right">
+                <span>UserName</span>
+                <input type="text" name="username">
+
+                <span>Password</span>
+                <input type="password" name="password">
+                <div class="word-in">
+                    <a class="forgot" href="#">Forgot Your Password?</a>
+                    <input type="submit" value="Login">
+                </div>
+            </div>
+            <div class="col-md-6 login-left">
+                <h4>NEW CUSTOMERS</h4>
+                <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+                <a class="acount-btn" href="register.html">Create an Account</a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+

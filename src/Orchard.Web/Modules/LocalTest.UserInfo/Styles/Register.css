@@ -1,0 +1,72 @@
+﻿/****==== common ====****/
+@font-face {
+    font-family: 'Poiret One';
+    src: url(../Styles/Fonts/PoiretOne-Regular.ttf);
+}
+html, body {
+    font-family: 'Poiret One', cursive;
+    background-color: #fff;
+    font-size: 100%;
+}
+body a {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, label, p {
+    margin: 0;
+}
+/****==== header ====****/
+
+/****==== register ====****/
+.register h2 {
+    color: #fa03bb;
+    font-size: 3em;
+    margin: 0 0 1em;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+}
+
+.register-top-grid span, .register-bottom-grid span {
+    color: #b2b2b2;
+    font-size: 0.9em;
+    padding-bottom: 0.2em;
+    display: block;
+}
+
+.register-top-grid input[type="text"], .register-top-grid input[type="password"] {
+    border: 1px solid #EEE;
+    outline-color: #fa03bb;
+    width: 100%;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+.register-but{
+	margin-top:1em;
+}
+.register-but input[type="submit"],.register-but input[type="button"] {
+	background:#fa03bb;
+	color: #FFF;
+	font-size:1em;
+	padding: 0.4em 1em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	border:none;
+	outline:none;
+}
+.register-but input[type="submit"]:hover {
+	background:#403b37;
+}
+
+/****==== footer ====****/
