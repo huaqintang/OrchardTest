@@ -90,6 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheNewTheme\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="TheNewTheme\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="TheNewTheme\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TheAdmin\Scripts\admin.js" />
@@ -123,6 +126,23 @@
     </Content>
     <Content Include="TheAdmin\Views\Pager.cshtml" />
     <Content Include="TheAdmin\Views\OrchardVersion.cshtml" />
+    <Content Include="TheNewTheme\bin\System.Web.Mvc.dll" />
+    <Content Include="TheNewTheme\bin\System.Web.Mvc.xml" />
+    <Content Include="TheNewTheme\bin\TheNewTheme.dll" />
+    <Content Include="TheNewTheme\bin\TheNewTheme.pdb" />
+    <Content Include="TheNewTheme\Images\cart.png" />
+    <Content Include="TheNewTheme\obj\Debug\TheNewTheme.csproj.FileListAbsolute.txt" />
+    <Content Include="TheNewTheme\obj\Debug\TheNewTheme.dll" />
+    <Content Include="TheNewTheme\obj\Debug\TheNewTheme.pdb" />
+    <Content Include="TheNewTheme\Scripts\bootstrap.min.js" />
+    <Content Include="TheNewTheme\Styles\bootstrap-3.1.1.min.css" />
+    <Content Include="TheNewTheme\Styles\menu.css" />
+    <Content Include="TheNewTheme\Styles\Styles.css" />
+    <Content Include="TheNewTheme\Styles\Styles.min.css" />
+    <Content Include="TheNewTheme\Theme.png" />
+    <Content Include="TheNewTheme\Theme.txt" />
+    <Content Include="TheNewTheme\TheNewTheme.csproj" />
+    <Content Include="TheNewTheme\TheNewTheme.csproj.user" />
     <Content Include="TheThemeMachine\Styles\default-grid.css" />
     <Content Include="TheThemeMachine\Styles\Site.css" />
     <Content Include="TheThemeMachine\Theme.png" />
@@ -203,6 +223,36 @@
     <Content Include="TheThemeMachine\Views\Pager.cshtml" />
     <Content Include="TheThemeMachine\Views\Pager.First.cshtml" />
     <Content Include="TheThemeMachine\Views\Pager.Last.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TheThemeMachine\Views\Widget-createtestwidget.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TheNewTheme\Assets.json" />
+    <Content Include="TheNewTheme\Assets\Styles.less" />
+    <Content Include="TheNewTheme\bin\TheNewTheme.dll.config" />
+    <Content Include="TheNewTheme\Content\Web.config" />
+    <Content Include="TheNewTheme\obj\Debug\TheNewTheme.csproj.CopyComplete" />
+    <Content Include="TheNewTheme\obj\Debug\TheNewTheme.csproj.CoreCompileInputs.cache" />
+    <Content Include="TheNewTheme\obj\Debug\TheNewTheme.csprojAssemblyReference.cache" />
+    <Content Include="TheNewTheme\Placement.info" />
+    <Content Include="TheNewTheme\Scripts\Web.config" />
+    <Content Include="TheNewTheme\Styles\Web.config" />
+    <Content Include="TheNewTheme\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TheNewTheme\Views\Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TheNewTheme\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TheNewTheme\Views\Widget-FooterMenuWidget.cshtml" />
+    <Content Include="TheNewTheme\Views\Widget-HeaderMenuWidget.cshtml" />
+    <Content Include="TheNewTheme\Views\Widget-HomeContentWidget.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TheNewTheme\Views\Content-Page.Detail.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

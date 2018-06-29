@@ -1,29 +1,4 @@
-﻿/****==== common ====****/
-@font-face {
-    font-family: 'Poiret One';
-    src: url(../Styles/Fonts/PoiretOne-Regular.ttf);
-}
-html, body {
-    font-family: 'Poiret One', cursive;
-    background-color: #fff;
-    font-size: 100%;
-}
-body a {
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-}
-ul {
-    padding: 0;
-    margin: 0;
-}
-h1, h2, h3, h4, h5, h6, label, p {
-    margin: 0;
-}
-/****==== header ====****/
-
+﻿
 /****==== register ====****/
 .register h2 {
     color: #fa03bb;
@@ -68,5 +43,3 @@ h1, h2, h3, h4, h5, h6, label, p {
 .register-but input[type="submit"]:hover {
 	background:#403b37;
 }
-
-/****==== footer ====****/
