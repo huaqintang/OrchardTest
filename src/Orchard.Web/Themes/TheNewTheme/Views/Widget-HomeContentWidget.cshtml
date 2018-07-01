@@ -1,1 +1,114 @@
-﻿<div>HomeContentWidget</div>
+﻿@{ 
+    Style.Include("home.css");
+}
+<!--首页主题内容-->
+<section class="homeCon">
+    <div class="bannerCarousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            @*<ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>                
+            </ol>*@
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="@Href("~/Themes/TheNewTheme/Images/menuPic/1.jpg")" alt="...">
+                    <div class="carousel-caption">
+                        <div>
+                            <h2>MEN &amp; WOMEN</h2>
+                            <h3>Trousers &amp; Chinos</h3>
+                            <h4>UPTO 50%</h4>
+                            <p>OFFER</p>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <!-- Controls -->
+            @*<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>*@
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="homeCon-productTop">
+            <div class="col-lg-3 col-md-3 col-ms-3 col-xs-3">
+                <div class="productTop-simpleCart">
+                    <a href="#">
+                        <img src="@Href("~/Themes/TheNewTheme/Images/menuPic/pi5.png")" />
+                    </a>
+                    <h3><a href="#">Palazzo</a></h3>
+                    <h5>$450</h5>
+                    <div class="productTop-simpleCart-addCart">Add To Cart</div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-ms-6 col-xs-6">
+                <div class="productTop-offer">
+                    <img src="@Href("~/Themes/TheNewTheme/Images/menuPic/11.jpg")" />
+                    <div>Flat 50% Offer</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-ms-3 col-xs-3">
+                <div class="productTop-simpleCart">
+                    <a href="#">
+                        <img src="@Href("~/Themes/TheNewTheme/Images/menuPic/pi4.png")" />
+                    </a>
+                    <h3><a href="#">Pant</a></h3>
+                    <h5>$300</h5>
+                    <div class="productTop-simpleCart-addCart">Add To Cart</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-ms-3 col-xs-3">
+                <div class="productTop-simpleCart">
+                    <a href="#">
+                        <img src="@Href("~/Themes/TheNewTheme/Images/menuPic/pi3.png")" />
+                    </a>
+                    <h3><a href="#">Palazoo</a></h3>
+                    <h5>$300</h5>
+                    <div class="productTop-simpleCart-addCart">Add To Cart</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-ms-3 col-xs-3">
+                <div class="productTop-simpleCart">
+                    <a href="#">
+                        <img src="@Href("~/Themes/TheNewTheme/Images/menuPic/pi2.png")" />
+                    </a>
+                    <h3><a href="#">Trouser</a></h3>
+                    <h5>$300</h5>
+                    <div class="productTop-simpleCart-addCart">Add To Cart</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-ms-3 col-xs-3">
+                <div class="productTop-simpleCart">
+                    <a href="#">
+                        <img src="@Href("~/Themes/TheNewTheme/Images/menuPic/pi6.png")" />
+                    </a>
+                    <h3><a href="#">Trouser</a></h3>
+                    <h5>$300</h5>
+                    <div class="productTop-simpleCart-addCart">Add To Cart</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-ms-3 col-xs-3">
+                <div class="productTop-simpleCart">
+                    <a href="#">
+                        <img src="@Href("~/Themes/TheNewTheme/Images/menuPic/pi8.png")" />
+                    </a>
+                    <h3><a href="#">Palazoo</a></h3>
+                    <h5>$300</h5>
+                    <div class="productTop-simpleCart-addCart">Add To Cart</div>
+                </div>
+            </div>
+        </div>
+        <div class="homeCon-productMidd">
+
+        </div>
+        <div class="homeCon-productBott">
+
+        </div>
+    </div>
+</section>

@@ -95,6 +95,7 @@
     <Content Include="Scripts\Register.js" />
     <Content Include="Styles\bootstrap-3.1.1.min.css" />
     <Content Include="Styles\Fonts\fontawesome-webfont.svg" />
+    <Content Include="Styles\Fonts\PoiretOne-Regular.svg" />
     <Content Include="Styles\login.css" />
     <Content Include="Styles\Register.css" />
     <Content Include="Styles\Styles.css" />
@@ -112,6 +113,9 @@
     <Content Include="Styles\Fonts\fontawesome-webfont.eot" />
     <Content Include="Styles\Fonts\fontawesome-webfont.ttf" />
     <Content Include="Styles\Fonts\fontawesome-webfont.woff" />
+    <Content Include="Styles\Fonts\PoiretOne-Regular.eot" />
+    <Content Include="Styles\Fonts\PoiretOne-Regular.ttf" />
+    <Content Include="Styles\Fonts\PoiretOne-Regular.woff" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Orchard\Orchard.Framework.csproj">

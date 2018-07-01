@@ -65,8 +65,9 @@
 <!--=================****** menu.css is in using ******=================-->
 @{ 
     Style.Include("bootstrap-3.1.1.min.css");
-    Style.Include("menu.css");
-    Script.Include("bootstrap.min.js");
+    Style.Include("menu.css").AtHead();
+    Script.Include("jquery-1.10.2.min.js").AtFoot();
+    Script.Include("bootstrap.min.js").AtFoot();
 }
 
 

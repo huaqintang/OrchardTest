@@ -1,0 +1,93 @@
+﻿/**** 首页主内容 ****/
+.bannerCarousel {
+
+}
+.bannerCarousel .carousel-caption>div {
+    width:400px;
+}
+.bannerCarousel h2{
+    font-size: 3em;
+    color:#fa03bb;
+	margin:0;
+	font-family: 'Poiret One', cursive;
+	font-weight:700;
+}
+.bannerCarousel h3{
+    font-size: 2em;
+    font-family:initial;
+    color: #ffffff;
+    margin: 0.5em;
+	text-align:right
+}
+.bannerCarousel h4{
+    font-size: 3em;
+    color:#ffffff;
+    margin: 1em 0 0;
+	text-align:center;
+	font-family: 'Poiret One', cursive;
+	font-weight:700;
+}
+.bannerCarousel p {
+    font-size: 1.5em;
+    font-family: initial;
+    color: #fa03bb;
+    margin: 0.5em;
+    text-align: right;
+}
+.homeCon-productTop {
+    padding:4em 0;
+}
+.homeCon-productTop img{
+    max-width:100%;
+}
+.homeCon-productTop .productTop-simpleCart {
+    background-color:#eee;
+    padding:1em;
+    margin:1em 0;
+    text-align:center;
+}
+.productTop-offer {
+    margin:1em 0;
+    position:relative;
+}
+.productTop-offer>div{
+    width:100%;
+    text-align:center;
+    position:absolute;
+    top:20%;
+    left:0;
+    color: #fff;
+    font-size: 4em;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+    background: rgba(250, 3, 187, 0.5);
+    padding: 0.3em;
+}
+.homeCon-productTop .productTop-simpleCart a {
+    color: #fa03bb;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+}
+.homeCon-productTop .productTop-simpleCart h5 {
+    color: #000;
+    font-size: 1.2em;
+    font-family:initial;
+    margin: 14px 0;
+}
+.homeCon-productTop .productTop-simpleCart-addCart{
+    color: #FFF;
+    font-size: 0.8em;
+    font-family:initial;
+    display: block;
+    background-color: #403b37;
+    padding: 0.3em 0.6em;
+    border-radius: 3px;
+    width: 43%;
+    margin: 0 auto;
+    cursor:pointer;
+}
+.homeCon-productTop .productTop-simpleCart-addCart:hover{
+    background-color:#fa03bb;
+}
+
