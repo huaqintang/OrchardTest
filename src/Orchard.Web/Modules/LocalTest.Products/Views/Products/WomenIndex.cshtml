@@ -1,0 +1,85 @@
+﻿@{
+    var cdnVersion = "1";
+    Style.Include("women.css?v=" + cdnVersion);
+}
+
+<!--女士衣服 上装，下装，裙装，晚装-->
+<div class="womenClothes">
+    <h2>Women</h2>
+    <!-- 一行三个，最多2行，显示更多 -->
+    <div class="container">
+        <div class="col-lg-9 col-sm-9">
+            <div class="womenClothes-productsList">
+                <div class="womenClothes-products">
+                    <div class="products-img">
+                        <img src="@Href("~/Modules/LocalTest.Products/Images/clothes/womenT/1.jpg")" />
+                    </div>
+                    <p class="products-type">Trouser</p>
+                    <p class="products-price">$300</p>
+                    <div class="products-addCart">Add To Cart</div>
+                </div>
+                <div class="womenClothes-products">
+                    <div class="products-img">
+                        <img src="@Href("~/Modules/LocalTest.Products/Images/clothes/womenT/2.jpg")" />
+                    </div>
+                    <p class="products-type">Trouser</p>
+                    <p class="products-price">$300</p>
+                    <div class="products-addCart">Add To Cart</div>
+                </div>
+                <div class="womenClothes-products">
+                    <div class="products-img">
+                        <img src="@Href("~/Modules/LocalTest.Products/Images/clothes/womenT/3.jpg")" />
+                    </div>
+                    <p class="products-type">Trouser</p>
+                    <p class="products-price">$300</p>
+                    <div class="products-addCart">Add To Cart</div>
+                </div>
+                <div class="womenClothes-products">
+                    <div class="products-img">
+                        <img src="@Href("~/Modules/LocalTest.Products/Images/clothes/womenT/4.jpg")" />
+                    </div>
+                    <p class="products-type">Trouser</p>
+                    <p class="products-price">$300</p>
+                    <div class="products-addCart">Add To Cart</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-3">
+            <div class="products-category">
+                <h3>Categories</h3>
+                <ul class="products-categoryUl">
+                    <li>
+                        <a href="@Href("~/LocalTest.Products/Products/WomenIndex")">Women</a>
+                        <ul>
+                            <li>Women Tops</li>
+                            <li>Women Dress</li>
+                            <li>Women Bottoms</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="@Href("~/LocalTest.Products/Products/WomenIndex")">Men</a>
+                        <ul>
+                            <li>Men Tops</li>
+                            <li>Men Bottoms</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="products-bestSellers">
+                <h3>Best Sellers</h3>
+                <div class="products-bestItem">
+                    <div class="thumbnailPic">
+                        <img src="@Href("~/Modules/LocalTest.Products/Images/clothes/womenDress/1.jpg")"/>
+                    </div>
+                    <div>
+                        <a class="simpledesc">Lorem ipsum dolor sitamet consectetuer</a>
+                        <p class="price">$40.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+

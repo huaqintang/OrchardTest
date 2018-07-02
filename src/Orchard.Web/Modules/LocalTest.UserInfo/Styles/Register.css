@@ -1,5 +1,8 @@
 ﻿
 /****==== register ====****/
+.register {
+    padding:3em 0;
+}
 .register h2 {
     color: #fa03bb;
     font-size: 3em;
@@ -14,6 +17,7 @@
     font-size: 0.9em;
     padding-bottom: 0.2em;
     display: block;
+    font-family: 'Roboto-Regular';
 }
 
 .register-top-grid input[type="text"], .register-top-grid input[type="password"] {
@@ -39,6 +43,7 @@
 	display: inline-block;
 	border:none;
 	outline:none;
+    font-family:'Roboto-Regular';
 }
 .register-but input[type="submit"]:hover {
 	background:#403b37;
